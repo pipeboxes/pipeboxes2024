@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+.profile {
+    background-color: #00ff22;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
