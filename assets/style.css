@@ -1,25 +1,31 @@
 body {
     background-color: #f8f9fa;
 }
+
 .container {
     max-width: 800px;
     margin: 50px auto;
 }
+
 .profile {
-    background-color: #00ff22;
+    background-color: #64806c;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
+
 .profile img {
-    max-width: 150px;
+    max-width: 280px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.info {
-    background-color: #fff;
-    padding: 20px;
+
+.section {
+    border: 1px solid #ced4da;
     border-radius: 10px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
