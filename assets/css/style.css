@@ -1,0 +1,87 @@
+body {
+    background-color: #66806d
+}
+#bgcolor {
+    background-color: #66806d;
+}
+#navbar-brand{
+    font-size: 40px;
+    color: white;
+}
+.nav-link {
+    font-size: 40px;
+}
+.container {
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.profile {
+    background-color: #66806d;
+    border: 1px solid black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile img {
+    max-width: 280px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section {
+    border: 1px solid #66806d;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 18em;
+    margin-top: 50px;
+    h2 {
+        margin-top: 40px;
+    }
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.formulario {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 18em;
+    margin-top: 50px;
+    background-color: #66806d;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #83af85;
+    border: 2px solid #83af85;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Agregando el efecto de relieve */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #83af85;
+    border-color: #83af85;
+    color: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Cambiando el efecto de relieve en hover */
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
