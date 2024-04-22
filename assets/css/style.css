@@ -8,8 +8,10 @@ body {
     font-size: 40px;
     color: white;
 }
-.nav-link {
+#nav-link {
     font-size: 40px;
+    color: white;
+
 }
 .container {
     max-width: 800px;
