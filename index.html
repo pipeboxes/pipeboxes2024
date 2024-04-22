@@ -5,24 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Currículum</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Estilos CSS de Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="bgcolor" class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Mi Currículum</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a id="navbar-brand" href="https://pipeboxes.github.io/pipeboxes2024/" target="_blank">Mi Currículum</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/tu-usuario/tu-repositorio" target="_blank">Mi
-                            Repositorio</a>
+                        <a class="nav-link" href="../Portafolio/portafolio.html" target="_blank">Mi
+                            Portafolio</a>
                     </li>
                 </ul>
             </div>
@@ -33,69 +31,81 @@
         <div class="profile col-12">
             <img id="photo" src="./assets/img/foto felipe.jpg" alt="Foto de perfil" class="rounded-circle">
             <h1>Felipe Ignacio Cajas Maureira</h1>
-            <p>Estudiante de tecnologías de la información, especializándome como desarrollador FullStack.</p>
-            <p>Conocimientos en: HTML, CSS, BOOTSTRAP, GIT/GITHUB, entre otros.</p>
+            <h3>Desarrollador TI</h3>
+            <p>Como desarrollador de tecnologías de la información, tengo experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web.</p>
+             <p>Mis habilidades incluyen HTML, CSS, JavaScript, Python y bases de datos como MySQL. Soy apasionado por la innovación tecnológica</p>
+             <p>y me esfuerzo por crear soluciones efectivas y eficientes para los desafíos de hoy.</p>
         </div>
 
-        <div class="row justify-content-center"> 
+        <div class="row align-items-start">
             <div class="col-12 col-md-6">
-                <div class="section">
-                    <h2>Información Personal</h2>
+                <div class="section text-left">
+                    <h2><i class="fas fa-user"></i> Información Personal</h2>
                     <p><strong>Fecha de Nacimiento:</strong> 25/10/1991</p>
                     <p><strong>Email:</strong> felipe.cajas.maureira@gmail.com</p>
                     <p><strong>Teléfono:</strong> 945020226</p>
                     <p><strong>Dirección:</strong> La Florida, Santiago de Chile.</p>
                 </div>
-                <div class="section">
-                    <h2>Educación</h2>
-                    <ul>
-                        <li><strong>Escolar</strong> Colegio Santa Lucía de Lo Cañas, básica y media, graduación año 2009.</li>
-                        <li><strong>Universitaria completa</strong> Licenciado en Enfermería, Universidad Internacional SEK, generación año 2017.</li>
-                    </ul>
-                </div>
-            </div>: 
-            <div class="col-12 col-md-6">
-                <div class="section">
-                    <h2>Manejo de idiomas</h2>
+                <div class="section text-left">
+                    <h2><i class="fas fa-language"></i> Manejo de idiomas</h2>
                     <ul>
                         <li><strong>Español:</strong> Lengua materna.</li>
                         <li><strong>Inglés:</strong> Oral y escrito: Intermedio.</li>
                     </ul>
                 </div>
-                <div class="section">
-                    <h2>Habilidades</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="section text-left">
+                    <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+                    <ul>
+                        <li><strong>Escolar</strong> Colegio Santa Lucía de Lo Cañas, básica y media, graduación año
+                            2009.</li>
+                        <li><strong>Universitaria completa</strong> Licenciado en Enfermería, Universidad Internacional
+                            SEK, generación año 2017.</li>
+                    </ul>
+                </div>
+                <div class="section text-left">
+                    <h2><i class="fas fa-lightbulb"></i> Habilidades</h2>
                     <ul>
                         <li>Proactivo</li>
                         <li>Resiliente</li>
+                        <li>Empático</li>
                         <li>Trabajo en equipo</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section justify-content-center" style="border: 1px solid #ced4da; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-        <h2>Mis proyectos</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <a href="enlace_pagina_1.html">
-                    <img src="ruta/a/foto_1.jpg" alt="Foto 1" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="enlace_pagina_2.html">
-                    <img src="ruta/a/foto_2.jpg" alt="Foto 2" class="img-fluid">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="enlace_pagina_3.html">
-                    <img src="ruta/a/foto_3.jpg" alt="Foto 3" class="img-fluid">
-                </a>
+        <div class="formulario">
+            <div class="sectionform text-center">
+                <h2>Formulario de Contacto</h2>
+                <form action="enviar.php" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+                    </div>
+
+                    <a href="https://articulospublicidad.cl/wp-content/uploads/2022/04/mail.png" class="btn" target="_blank">Enviar</a>
+                </form>
             </div>
         </div>
+        <footer>
+            <p>&copy; 2024 Felipe Ignacio Cajas Maureira</p>
+        </footer>
     </div>
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
